@@ -23,7 +23,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:;
     margin: 50px;
     border: solid 1px var(--cor-da-borda);
     border-radius: 10px;
