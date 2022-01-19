@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link rel="shortcut icon" href="img/file-code-regular.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <title>Codificador de texto</title>
 </head>
@@ -17,7 +20,7 @@
                 <h6 class="titulo">Codifique & Decodifique sua mensagem aqui:</h6>
                 <input type="text" name="msg-original" id="msg-original">
                 <div class="bt-card">
-                    <input type="button" value="Codificar">
+                    <input type="button" value="Codificar" onclick="CriptografarMensagem()">
                     <input type="button" value="Decodificar">
                 </div>
             </div>
@@ -29,8 +32,11 @@
         </section>
     </main>
     <footer>
-        <p>Informações</p>
-    </footer>
+        <div class="texto-rodape">
+            <p><strong>© Copyright 2022 por Wagner Gabriel. Todos os direitos reservados.</strong></p> <a
+            href="https://github.com/wagnergbriel"><em class="fab fa-github"></em></a></p>
+        </div>
+        </footer>
     <script src="js/main.js"></script>
 </body>
 </html>
