@@ -1,25 +1,25 @@
-:root{
+:root {
     --cor-da-borda: rgb(17, 16, 16);
     --cor-de-fundo: rgb(230, 232, 236);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: monospace;
 }
 
-body{
+body {
     background-color: var(--cor-de-fundo);
 }
 
-.cabecalho{
+.cabecalho {
     border-bottom: solid 1px var(--cor-da-borda);
     padding: 35px;
 }
 
 /*Card*/
-.card{
+.card {
     top: 50%;
     left: 50%;
     display: flex;
@@ -31,27 +31,36 @@ body{
     padding: 30px;
 }
 
-.titulo{
+.msg-codificada {
+    height: 150px;
+    width: 380px;
+    background-color: rgb(167, 166, 166);
+    margin: 25px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.titulo {
     color: var(--cor-da-borda);
     font-size: 20px;
     text-align: center;
 }
 
-input[type="text"]{
+input[type="text"] {
     margin: 40px;
     height: 150px;
     width: 380px;
     border-radius: 10px;
 }
 
-.bt-card{
+.bt-card {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
 }
 
-input[type="button"]{
+input[type="button"] {
     border: none;
     padding: 20px;
     margin: 10px;
@@ -62,18 +71,18 @@ input[type="button"]{
 }
 
 /*Footer*/
-footer{
+footer {
     border-top: solid 1px var(--cor-da-borda);
     padding: 35px;
     text-align: center;
 }
 
-.texto-rodape{
+.texto-rodape {
     margin: 15px;
     font-size: 15px;
 }
 
-.fab{
+.fab {
     padding: 10px;
     color: var(--cor-de-fundo);
     background: var(--cor-da-borda);
@@ -83,40 +92,45 @@ footer{
 
 /*Media*/
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
 
-    .cabecalho{
+    .cabecalho {
         padding: 30px;
         width: 350px;
     }
 
-    .titulo{
+    .titulo {
         font-size: 14px;
     }
 
-    .card{
+    .card {
         width: 250px;
     }
 
-    input[type="text"]{
+    .msg-codificada{
         width: 150px;
     }
 
-    input[type="button"]{
+    input[type="text"] {
+        width: 150px;
+        padding: 20px;
+    }
+
+    input[type="button"] {
         padding: 14px;
     }
 
-    .bt-card{
+    .bt-card {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    footer{
+    footer {
         width: 350px;
     }
 
-    .texto-rodape{
+    .texto-rodape {
         font-size: 12px;
     }
 }
