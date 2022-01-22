@@ -70,6 +70,11 @@ input[type="button"] {
     cursor: pointer;
 }
 
+input[type="button"]:hover {
+    color: var(--cor-da-borda);
+    background-color: whitesmoke;
+}
+
 /*Footer*/
 footer {
     border-top: solid 1px var(--cor-da-borda);
