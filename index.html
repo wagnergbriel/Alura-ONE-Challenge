@@ -20,10 +20,11 @@
         <section>
             <div class="card">
                 <h6 class="titulo">Codifique & Decodifique sua mensagem aqui:</h6>
-                <input type="text" name="msg-original" id="msg-original">
+                <textarea name="msg-original" id="msg-original" cols="60" rows="15" placeholder="Digite sua mensagem ..."></textarea>
                 <div class="bt-card">
                     <input type="button" value="Codificar" onclick="CriptografarMensagem()">
                     <input type="button" value="Decodificar" onclick="DescriptografarMensagem()">
+                    <input type="button" value="Limpar" onclick="LimparMensagem()">
                 </div>
             </div>
             <div class="card">
