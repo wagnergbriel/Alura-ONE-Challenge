@@ -30,5 +30,7 @@ function LimparMensagem() {
 }
 
 function CopiarMensagem() {
-    return null;
+    const mensagemCopiada = document.querySelector('#msg-codificada');
+    navigator.clipboard.writeText(mensagemCopiada.value);
+    alert("Mensagem copiada com sucesso!");
 }
