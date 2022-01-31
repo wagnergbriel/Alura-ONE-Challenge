@@ -32,12 +32,11 @@ body {
 }
 
 .msg-codificada {
-    height: 150px;
-    width: 380px;
     background-color: rgb(167, 166, 166);
     margin: 25px;
     padding: 15px;
     border-radius: 15px;
+    color: black;
 }
 
 .titulo {
@@ -92,6 +91,11 @@ footer {
     background: var(--cor-da-borda);
     border-radius: 20px;
     margin: 15px;
+}
+
+.fab:hover {
+    color: var(--cor-da-borda);
+    background-color: whitesmoke;
 }
 
 /*Media*/
